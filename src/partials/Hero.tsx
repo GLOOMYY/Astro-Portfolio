@@ -10,20 +10,13 @@ const Hero = () => (
     <HeroAvatar
       title={
         <>
-          Hi there, I'm <GradientText>Ixartz</GradientText> 👋
+          Hola, soy <GradientText>GLOOMY</GradientText> 👋
         </>
       }
       description={
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            malesuada
-          </a>{' '}
-          nisi tellus, non imperdiet nisi tempor at. Lorem ipsum dolor sit amet,{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            consectetur
-          </a>{' '}
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          Mi nombre es Sebastian y soy un desarrollador FullStack y analista de
+          datos.
         </>
       }
       avatar={
@@ -36,25 +29,13 @@ const Hero = () => (
       }
       socialButtons={
         <>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/twitter-icon.png"
-              alt="Twitter icon"
-            />
-          </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/facebook-icon.png"
-              alt="Facebook icon"
-            />
-          </a>
-          <a href="/">
+          <a href="https://www.linkedin.com/in/sebasti%C3%A1n-mesa-460361226/">
             <HeroSocial
               src="/assets/images/linkedin-icon.png"
               alt="Linkedin icon"
             />
           </a>
-          <a href="/">
+          <a href="https://www.youtube.com/channel/UC6oEdc-FrfUq4WyPefG8vqw">
             <HeroSocial
               src="/assets/images/youtube-icon.png"
               alt="Youtube icon"
